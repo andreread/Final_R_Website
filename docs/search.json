@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-21T20:34:41-04:00"
+    },
+    {
+      "path": "index.html",
+      "title": " Euro 2020 Soccer Player Birth Months",
+      "description": "Examination of the birth months of the players at the Euro 2020\n",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-21T20:34:43-04:00"
+    }
+  ],
+  "collections": []
+}

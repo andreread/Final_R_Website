@@ -1,0 +1,15 @@
+---
+title: " Euro 2020 Soccer Player Birth Months"
+description: |
+  Examination of the birth months of the players at the Euro 2020
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(tidyverse)
+
+
+```
+
