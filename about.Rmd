@@ -6,5 +6,17 @@ description: |
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+x <- read.csv("birthdates.csv")
+
+```
+## About myself and the project
+This is a project that I am doing in order to complete Kane's data science bootcamps for high schoolers.
+
+
+## Original Code
+```{r}
+
+x
 ```
 
