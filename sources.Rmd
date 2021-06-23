@@ -8,7 +8,9 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-An overview of the sources I used during the creation of my project.
+# CovidActNow
+
+[CovidActNow](https://apidocs.covidactnow.org/) is where I accessed the API key I needed to obtain the information for my project.
 
 
 
