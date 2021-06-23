@@ -1,0 +1,16 @@
+---
+title: "Sources"
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+An overview of the sources I used during the creation of my project.
+
+
+
+
+
