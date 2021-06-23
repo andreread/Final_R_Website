@@ -9,23 +9,21 @@ site: distill::distill_website
 knitr::opts_chunk$set(echo = FALSE)
 
 library(tidyverse)
-x <- read.csv("birthdates.csv")
+library(riem)
+library(httr)
+library(sf)
+library(gganimate)
+library(gifski)
+library(png)
+library(dplyr)
+library(patchwork)
+library(ggthemes)
+library(distill)
+
 
 ```
 ```{r}
-x %>% 
-  mutate(date = parse_date(str_sub(value, 2, 11))) %>% 
-  mutate(raw_month = months(date)) %>% 
-  mutate(month = parse_factor(raw_month, levels = month.name)) %>% 
-  group_by(month) %>% 
-  summarize(total = n()) %>% 
-  ggplot(aes(x = fct_rev(month), y = total)) +
-    geom_col() +
-    coord_flip() +
-    labs(title = "Euro 2020 Soccer Player Birth Months",
-         subtitle = "Elite players are not more likely to be born in January",
-         caption = "Data from Wikipedia",
-         x = NULL,
-         y = "Number")
+plz_work <- read_rds("anim_plot.rds")
+plz_work
 ```
 

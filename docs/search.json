@@ -10,7 +10,7 @@
     },
     {
       "path": "About_Me.html",
-      "title": "Untitled",
+      "title": "About Me",
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\nAbout me, the creator of this project and website.\r\n\r\n\r\n\r\n",
@@ -22,7 +22,7 @@
       "description": "Examination of the birth months of the players at the Euro 2020\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-23T08:56:41-04:00"
+      "last_modified": "2021-06-23T09:00:47-04:00"
     },
     {
       "path": "sources.html",
