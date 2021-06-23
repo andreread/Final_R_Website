@@ -24,7 +24,9 @@ library(rmarkdown)
 
 
 ```
+
 The graph below demonstrates each state's daily new case count over the past few months. Each line represents a different state, and you can hover your mouse over each line to see the state it represents. Note how the cases have been steadily decreasing over time, particularly after the second surge of cases during April. The trend of cases after this surge has massively decreased, far beyond anything before, and far beyond what lockdowns had achieved.
+
 ```{r}
 new_cases_plot_interactive <- read_rds("new_cases_state_plot.rds")
 new_cases_plot_interactive
