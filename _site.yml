@@ -1,7 +1,7 @@
 name: "."
-title: " Euro 2020 Soccer Player Birth Months"
+title: "Covid Cases and Vaccination Rates in the US"
 description: |
-   Euro 2020 Soccer Player Birth Months
+   Covid Cases and Vaccination Rates in the US
 output_dir: "docs"
 navbar:
   right:

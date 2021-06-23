@@ -1,7 +1,7 @@
 ---
-title: " Euro 2020 Soccer Player Birth Months"
+title: "Covid Cases and Vaccination Rates in the US"
 description: |
-  Examination of the birth months of the players at the Euro 2020
+  The relationship between Covid cases and vaccination rates in the US
 site: distill::distill_website
 ---
 
@@ -22,8 +22,16 @@ library(distill)
 
 
 ```
-```{r}
-plz_work <- read_rds("anim_plot.rds")
-plz_work
-```
 
+```{r}
+new_cases_plot <- read_rds("new_cases_state_plot.rds")
+new_cases_plot
+```
+```{r}
+vacc_state <- read_rds("vacc_state.rds")
+vacc_state
+```
+```{r}
+anim_graph <- read_rds("anim_plot.rds")
+anim_graph
+```
