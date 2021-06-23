@@ -17,8 +17,8 @@ h_raw_data <- read_csv(file = h_raw_url)
 new_cases_state_plot <- h_raw_data %>%
   mutate(day_vaccine = actuals.vaccinesAdministered - lag(actuals.vaccinesAdministered, default = first(actuals.vaccinesAdministered))) %>%
   select(date, state, actuals.newCases, actuals.vaccinesAdministered, day_vaccine) %>%
-  filter(actuals.newCases != 0) %>%
   drop_na() %>%
+  filter(actuals.newCases >= 0) %>%
   ggplot(aes(date, actuals.newCases, fill = state, color = state, text = paste("State:", state)))+
   geom_smooth(formula = y ~ x, method = loess, se = FALSE)+
   theme_minimal()+
