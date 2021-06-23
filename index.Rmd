@@ -26,12 +26,12 @@ library(rmarkdown)
 ```
 
 ```{r}
-new_cases_plot <- read_rds("new_cases_state_plot.rds")
-new_cases_plot
+new_cases_plot_interactive <- read_rds("new_cases_state_plot.rds")
+new_cases_plot_interactive
 ```
 ```{r}
-vacc_state <- read_rds("vacc_state.rds")
-vacc_state
+vacc_state_interactive <- read_rds("vacc_state.rds")
+vacc_state_interactive
 ```
 ```{r}
 anim_graph <- read_rds("anim_plot.rds")
