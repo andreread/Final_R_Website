@@ -21,7 +21,7 @@ h_raw_url <- "https://api.covidactnow.org/v2/states.timeseries.csv?apiKey=a13da1
 h_raw_data <- as_tibble(read_csv(h_raw_url))
 
 ```
-This website and all it contains is part of my final project in [Kane's free data science bootcamp](https://bootcamp.davidkane.info/). Given the opportunity to explore any data I wanted to, I decided to try and find just how effective vaccinations are in the United States. I did so with two main metrics, the daily vaccination count, and the daily case count. By analyzing the rates of infections in relation to those of vaccinations, I was able to graphically demonstrate that an increase in vaccination counts lead to a decrease in infections rates
+This website and all it contains is part of my final project in [Kane's free data science bootcamp](https://bootcamp.davidkane.info/). Given the opportunity to explore any data I wanted to, I decided to try and find just how effective vaccinations are in the United States. I did so with two main metrics, the daily vaccination count, and the daily case count. By analyzing the rates of infections in relation to those of vaccinations, I was able to graphically demonstrate that an increase in vaccination counts lead to a decrease in infections rates. The data I used was cleaned, analyzed and graphed through R.
 
 ## Limitations
 One of the largest limitations of this project is the lack of additional information regarding the daily case count. Factors such as lockdowns, the amount of mask usage and different variants would have greatly enhanced my analysis, and would have shown the impact of various preventative measures, not just vaccines. 
