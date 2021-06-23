@@ -19,6 +19,8 @@ library(dplyr)
 library(patchwork)
 library(ggthemes)
 library(distill)
+library(knitr)
+library(rmarkdown)
 
 
 ```
