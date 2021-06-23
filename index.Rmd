@@ -32,6 +32,8 @@ new_cases_plot_interactive <- read_rds("new_cases_state_plot.rds")
 new_cases_plot_interactive
 ```
 
+Vaccinations began in earnest during the months of April to May, only a few weeks before the large reduction in cases seen above. This lines up with the [full protection of a vaccination](https://wexnermedical.osu.edu/blog/how-long-for-covid-vaccine-to-work) being achieved two weeks after the first or second dose. However, the rate of vaccination has dropped significantly despite the fact that [less than half of the US population has been vaccinated](https://ourworldindata.org/covid-vaccinations?country=USA). This lack of vaccination could result in [Covid-19 becoming endemic](https://www.nature.com/articles/d41586-021-00396-2), meaning it would be regularly found among people, just like the flu. 
+
 ```{r}
 vacc_state_interactive <- read_rds("vacc_state.rds")
 vacc_state_interactive
