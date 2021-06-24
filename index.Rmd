@@ -39,7 +39,7 @@ vacc_state_interactive <- read_rds("vacc_state.rds")
 vacc_state_interactive
 ```
 
-The graph below demonstrates Covid cases in relation to vaccination rates, and the decreasing slope of all 50 states represented by the points also demonstrates the effectiveness of vaccinations. As time increases, the amount of new cases slowly drops, and simultaneously, the amount of vaccinations increases as well. Notice how the x-axis's scale is 20 time larger than the y-axis, showing just how many vaccinations are necessary to begin to lower the daily case count.
+The graph below demonstrates Covid cases in relation to vaccination rates, and the decreasing slope of all 50 states represented by the points also demonstrates the effectiveness of vaccinations. As time increases, the amount of new cases slowly drops, and simultaneously, the amount of vaccinations increases as well. Notice how the x-axis's scale is 10 times larger than the y-axis, showing just how many vaccinations are necessary to begin to lower the daily case count.
 
 ```{r}
 anim_graph <- read_rds("anim_plot.rds")

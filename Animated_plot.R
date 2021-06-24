@@ -17,6 +17,8 @@ h_anim_plot <- h_raw_data %>%
   mutate(day_vaccine = actuals.vaccinesAdministered - lag(actuals.vaccinesAdministered, default = first(actuals.vaccinesAdministered))) %>%
   select(date, state, actuals.newCases, actuals.vaccinesAdministered, day_vaccine) %>% 
   filter(actuals.newCases != 0) %>% 
+  filter(day_vaccine < 400000) %>% 
+  filter(day_vaccine > 0) %>% 
   drop_na() %>% 
   mutate(year = str_sub(date, 1, 4))
 
